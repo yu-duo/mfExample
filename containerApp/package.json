@@ -1,0 +1,25 @@
+{
+  "name": "container",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --mode development",
+    "start": "vue-cli-service serve"
+  },
+  "bin": {
+    "testServe": "module/m.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@vue/cli": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "vue": "^2.7.0",
+    "vue-router": "^3.2.0",
+    "vue-template-compiler": "^2.7.14",
+    "vuex": "^3.6.0",
+    "webpack": "^5.46.0"
+  }
+}

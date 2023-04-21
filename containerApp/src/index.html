@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        {{address}}
+        <test-c></test-c>
+    </div>
+    <script>
+        new Vue({
+            el:"#app",
+            data:{
+              address:'hn'
+            },
+            components:{
+                testC:{
+                    template:`<div>testC</div>`,
+                    name:'testC',
+                    /*data(){
+                        return{age:18}
+                    },*/
+                    data:{
+                        age:18
+                    }
+                }
+            }
+        })
+    </script>
+</body>
+</html>
